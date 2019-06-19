@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jun 19 11:56:16 2019
+Created on Wed Jun 19 12:32:13 2019
 
 @author: hp
 """
 
 # -*- coding: utf-8 -*-
-"Daily Practise File
+#Daily Practise File
 #-----------------------------
 #Data Structures
 
@@ -15,11 +15,10 @@ list1 = [1,2,3,4,5]
 list1
 type(list1)
 
-place = ['wb','bh', 'ass']
-place
+
 
 list2 = ['a','c','d','e']
-
+list2
 #%%
 #tuple - multiple type of objects, immutable
 tuple1 = (1,2, 'a', 'b')
@@ -38,8 +37,10 @@ set1 = set(['india', 'pakistan', 'england', 'australia','india'])
 set1
 type(set1)
 
-
-
+set2 = {'INDIA','pakistAN',  "INDIA"}
+set2
+type(set2)
+print(set2)
 #%%
 #Strings
 
@@ -52,6 +53,9 @@ type(str1)
 list1
 for i in list1:
     print(i)
+for i in list1:    print(i)
+for i in list1:    print('Dhiraj ', i + 6)
+
 tuple1
 for i in tuple1:
     print(i)
@@ -92,6 +96,7 @@ namez
 #%%
 #numpy - array - same data type
 import numpy as np
+
 np1 = np.arange(1,10)
 np1
 type(np1)
@@ -114,9 +119,9 @@ df1
 type(df1) 
 
 df1.columns
-df1.describe
+df1.describe()
 df1.dtypes
-df1.shape
+df1.shape  # rows and columns
 df1.groupby('gender').size()
 df1.groupby('gender')['marks'].mean()
 df1.groupby('gender').aggregate({'marks': [np.mean, 'max']})
