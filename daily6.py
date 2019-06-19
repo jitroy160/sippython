@@ -13,6 +13,14 @@ math.pi
 import math
 print(math.pi)
 
-import random
+import sys
 
-for i in range(10): print(random.randint(1,25), end ='')
+sys.path
+
+import os
+os.getcwd()
+os.path.realpath('.')
+
+import os
+os.chdir('G:/pwork')
+os.
