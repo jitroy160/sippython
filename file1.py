@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jun 19 01:16:18 2019
+Created on Wed Jun 19 11:15:01 2019
 
 @author: hp
 """
 
-x=10
+x=5
 x
 print(x)
