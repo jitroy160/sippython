@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jun 19 11:15:01 2019
+Created on Wed Jun 19 11:41:33 2019
 
-@author: hp
+@author: Abhijit
 """
-
 x=5
 x
 print(x)
